@@ -1,0 +1,29 @@
+
+html,body{
+    height:100%;
+    color:olive;
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  aside#left{
+    float:left; 
+    width:15%; 
+    height:70%;
+  }
+  section{
+    float:left;
+    width:60%;
+    height:70%;
+  }
+  aside#right{
+    float:right;
+    width:22%;
+    height:70%;
+  }
+  footer{
+    clear:both;
+  }
+  a{
+    color:olive;
+    text-decoration: none;
+  }
