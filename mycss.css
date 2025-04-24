@@ -34,3 +34,50 @@ html,body{
     color:olive;
     text-decoration: none;
   }
+
+  ul.main{
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid olive;
+    border-bottom: 1px solid olive;
+    padding: 10px 0;
+  }
+
+  ul.main li {
+    display:inline;
+    text-transform:  uppercase;
+    padding:0 10px;
+    letter-spacing:  3px;
+  }
+
+  ul.sidemenu{
+    list-style: none;
+    
+  }
+
+  ul.sidemenu li {
+    text-transform:  uppercase;
+    letter-spacing:  3px;
+    padding:5px;
+  }
+
+  ul.sidemenu li a:hover{
+    background-color: olive;
+    padding:10px;
+    color:white;
+   
+  }
+
+  footer ul{
+    list-style: none;
+    text-align: center;
+ 
+    padding: 10px 0;
+  }
+
+  footer ul li{
+    display: inline;
+    text-transform:  uppercase;
+    letter-spacing:  3px;
+    padding:5px;
+  }
