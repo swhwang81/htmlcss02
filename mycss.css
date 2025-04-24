@@ -10,6 +10,13 @@ html,body{
     width:15%; 
     height:70%;
   }
+
+  aside#right p, h3{
+    text-align: center;
+    letter-spacing: 3px;
+    color:black;
+  }
+
   section{
     float:left;
     width:60%;
