@@ -93,8 +93,9 @@ html,body{
    
   }
 
-input{
+input, select{
   margin:3px;
+  padding:3px;
   border: 2px solid cadetblue;
   border-radius: 50px;
 }
@@ -133,3 +134,19 @@ input[type=reset]{
   color:cadetblue;
   padding: 10px 32px;
 }
+
+
+
+#main{
+  opacity: 1.0;
+  transition:transform 5s;
+  
+}
+
+#main:hover{
+  opacity: 0.6;
+  transform:translate(0px,100px);
+
+}
+
+
