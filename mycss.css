@@ -10,6 +10,13 @@ html,body{
     width:15%; 
     height:70%;
   }
+
+  aside#right p, h3{
+    text-align: center;
+    letter-spacing: 3px;
+    color:black;
+  }
+
   section{
     float:left;
     width:60%;
@@ -27,3 +34,102 @@ html,body{
     color:olive;
     text-decoration: none;
   }
+
+  ul.main{
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid olive;
+    border-bottom: 1px solid olive;
+    padding: 10px 0;
+  }
+
+  ul.main li {
+    display:inline;
+    text-transform:  uppercase;
+    padding:0 10px;
+    letter-spacing:  3px;
+  }
+
+  ul.sidemenu{
+    list-style: none;
+    
+  }
+
+  ul.sidemenu li {
+    text-transform:  uppercase;
+    letter-spacing:  3px;
+    padding:5px;
+  }
+
+  ul.sidemenu li a:hover{
+    background-color: olive;
+    padding:10px;
+    color:white;
+   
+  }
+
+  footer ul{
+    list-style: none;
+    text-align: center;
+ 
+    padding: 10px 0;
+  }
+
+  footer ul li{
+    display: inline;
+    text-transform:  uppercase;
+    letter-spacing:  3px;
+    padding:5px;
+  }
+
+  table{
+    width: 100%;
+
+  }
+  td{
+    width:50%;
+    text-align: center;
+    padding:20px;
+   
+  }
+
+input{
+  margin:3px;
+  border: 2px solid cadetblue;
+  border-radius: 50px;
+}
+
+input[type=text]{
+  color:blue;
+}
+
+input[type=text]:hover{
+  background-color: bisque;
+}
+input[type=password]:hover{
+  background-color: bisque;
+}
+
+input[type=text]:focus{
+  font-size: 1.2em;
+}
+
+input[type=submit]{
+  background-color: cadetblue;
+  border:none;
+  color:white;
+  padding: 10px 32px;
+}
+input[type=button]{
+  background-color: cadetblue;
+  border:none;
+  color:white;
+  padding: 5px 10px;
+
+}
+input[type=reset]{
+  background-color: white;
+  border:2px solid cadetblue;
+  color:cadetblue;
+  padding: 10px 32px;
+}
