@@ -63,7 +63,7 @@ html,body{
 
   ul.sidemenu li a:hover{
     background-color: olive;
-    padding:10px;
+    padding:5px;
     color:white;
    
   }
@@ -138,15 +138,33 @@ input[type=reset]{
 
 
 #main{
-  opacity: 1.0;
   transition:transform 5s;
-  
 }
 
 #main:hover{
-  opacity: 0.6;
   transform:translate(0px,100px);
-
 }
 
+
+.show{
+  background-color: rgba(250, 247, 247, 0.417);
+  width: 60%;
+  height: 20%;
+  position:absolute;
+  top:10%;
+  right:10%;
+  color:black;
+  text-align: center;
+  padding:20px 0;
+  animation: 6s showText infinite;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+}
+
+@keyframes showText{
+  0% {opacity:0;}
+  30%{opacity: 1;}
+  60%{opacity: 1;}
+  100%{opacity:0;}
+}
 
